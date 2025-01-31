@@ -1,0 +1,1 @@
+This repository includes the assignment: JavaScript and the Document Object Model (DOM) in Module 10: Lesson 5 of the Software Engineering Core.
