@@ -1,0 +1,39 @@
+<!-- Task 1: Create an HTML form with input fields for the user's name, email, and message -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <style>
+        .container {
+            margin: auto;
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>User Information Form</h2>
+
+        <form id="userForm">
+            
+<!-- Task 3: Implement form validation to ensure that all required fields are filled before submission -->
+            <label for="taskName">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="dueDate">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
